@@ -3,9 +3,9 @@ package com.kiienkoromaniuk.cocktailsbase.ui.themes
 import androidx.compose.ui.graphics.Color
 
 val baseLightPalette = CocktailsColors(
-    primaryBackground = Color(0xFF24202B),
+    primaryBackground = Color(0xFF25152E),
     primaryText = Color(0xFFF2F2FB),
-    secondaryBackground = Color(0xFF1F202C),
+    secondaryBackground = Color(0xFF101C26),
     secondaryText = Color(0xFFFFDD66),
     tintColor = Color.Magenta,
     controlColor = Color(0xFF7A8A99),
@@ -13,9 +13,9 @@ val baseLightPalette = CocktailsColors(
 )
 
 val baseDarkPalette = CocktailsColors(
-    primaryBackground = Color(0xFF24202B),
+    primaryBackground = Color(0xFF25152E),
     primaryText = Color(0xFFF2F2FB),
-    secondaryBackground = Color(0xFF1F202C),
+    secondaryBackground = Color(0xFF101C26),
     secondaryText = Color(0xFFFFDD66),
     tintColor = Color.Magenta,
     controlColor = Color(0xFF7A8A99),

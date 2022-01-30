@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.kiienkoromaniuk.cocktailsbase.screens.splash.SplashScreen
 import com.kiienkoromaniuk.cocktailsbase.ui.themes.*
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -48,7 +49,7 @@ class MainActivity : ComponentActivity() {
                 Surface {
                     NavHost(navController = navController, startDestination = "splash") {
                         composable("splash") {
-                            //SplashScreen(navController = navController)
+                            SplashScreen(navController = navController)
                         }
 
                         composable("main") {
