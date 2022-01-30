@@ -54,4 +54,8 @@ object Dependencies {
         const val androidJUnit = "androidx.test.ext:junit:1.1.2"
         const val espresso = "androidx.test.espresso:espresso-core:3.3.0"
     }
+
+    object Ktlint {
+        const val ktliint = "com.pinterest:ktlint:0.43.2"
+    }
 }
