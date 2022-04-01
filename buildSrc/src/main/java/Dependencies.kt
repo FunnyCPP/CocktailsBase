@@ -2,7 +2,7 @@
 object Dependencies {
 
     object Compose {
-        const val version = "1.0.5"
+        const val version = "1.1.1"
         const val ui = "androidx.compose.ui:ui:$version"
         const val material = "androidx.compose.material:material:$version"
         const val tooling = "androidx.compose.ui:ui-tooling-preview:$version"
@@ -12,6 +12,8 @@ object Dependencies {
         const val uiTest = "androidx.compose.ui:ui-test-junit4:$version"
 
         const val accompanist = "com.google.accompanist:accompanist-systemuicontroller:0.18.0"
+
+        const val coil = "io.coil-kt:coil-compose:1.3.1"
     }
 
     object Kotlin {

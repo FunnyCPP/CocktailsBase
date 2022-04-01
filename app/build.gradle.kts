@@ -83,6 +83,7 @@ dependencies {
     implementation(Dependencies.Compose.tooling)
     implementation(Dependencies.Compose.livedata)
     implementation(Dependencies.Compose.accompanist)
+    implementation(Dependencies.Compose.coil)
 
     implementation(Dependencies.Lifecycle.lifecycleKtx)
     implementation(Dependencies.Lifecycle.viewModelCompose)
